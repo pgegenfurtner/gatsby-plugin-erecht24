@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgegenfurtner/gatsby-plugin-erecht24",
+    "url": "https://github.com/pgegenfurtner/gatsby-plugin-erecht24"
   },
   "peerDependencies": {
     "axios": "^0.21.1"
