@@ -2,6 +2,11 @@ const axios = require('axios');
 
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest, reporter }, { apiKey }) => {
 
+  if (!apiKey) {
+    reporter.warn('gatsby-plugin-erecht24: apiKey missing')
+    return;
+  }
+
   const apiUrl = 'https://api.e-recht24.de/v1/';
   const endpoints = ['imprint', 'privacyPolicy']
 
