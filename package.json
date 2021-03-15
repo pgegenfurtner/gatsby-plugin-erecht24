@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-plugin-erecht24",
+  "version": "1.0.0",
+  "description": "Source Plugin for E-Recht24 API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philipp Gegenfurtner <philipp@pgegenfurtner.de>",
+  "license": "ISC"
+}
