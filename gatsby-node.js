@@ -1,7 +1,6 @@
 const axios = require('axios');
 
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest, reporter }, { apiKey }) => {
-  console.log(apiKey);
 
   const apiUrl = 'https://api.e-recht24.de/v1/';
   const endpoints = ['imprint', 'privacyPolicy']
@@ -24,7 +23,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest, repor
             ...data,
             id: createNodeId(`E-Recht24-${id}`),
             internal: {
-              type: `ERecht24Node${id}`,
+              type: `ERecht24${id}`,
               contentDigest: createContentDigest(data)
             }
           }
