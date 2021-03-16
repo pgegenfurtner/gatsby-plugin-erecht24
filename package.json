@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-erecht24",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Source Plugin for E-Recht24 API",
   "main": "index.js",
   "author": "Philipp Gegenfurtner <philipp@pgegenfurtner.de>",
